@@ -1,0 +1,23 @@
+{
+  "author": "igorlogius",
+  "background": {
+	"scripts": ["background.js"]
+  },
+  "content_scripts": [
+  {
+    "all_frames": true,
+    "matches": ["*://*/*"],
+    "js": ["content-script.js"],
+    "css": ["content-script.css"]
+  }
+  ],
+  "description": "indicate on hover if a link has already been bookmarked or not",
+  "icons": {
+  },
+  "manifest_version": 2,
+  "name": "indicate-if-link-is-bookmarked",
+  "permissions": [
+    "bookmarks"
+  ],
+  "version": "1.0.0"
+}

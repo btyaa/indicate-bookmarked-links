@@ -1,0 +1,8 @@
+.isBookmarked {
+	background-color: rgba(255,0,0,0.3);
+	padding: 0.25em;
+}
+.isNotBookmarked{
+	background-color: lightgreen;
+	padding: 0.25em;
+}
