@@ -1,9 +1,9 @@
 
 function reset(e) {
-	//
+
 	e.target.classList.remove('isBookmarked');
-	e.target.classList.remove('isNotBookmarked');
-	// 
+	//e.target.classList.remove('isNotBookmarked');
+	
 	e.target.title = e.target.oldtitle;
 	e.target.oldtitle = '';
 }
@@ -15,10 +15,11 @@ async function getInfo(e) {
 		if(isbookmarked){
 			e.target.classList.add('isBookmarked');
 			e.target.title ='already bookmarked';
-		}else{
+		}
+		/*else{
 			e.target.classList.add('isNotBookmarked');
 			e.target.title ='not bookmarked yet';
-		}
+		}*/
 	}
 }
 
