@@ -13,11 +13,12 @@
   ],
   "description": "indicate on hover if a link has already been bookmarked or not",
   "icons": {
+      "128": "icon.png"
   },
   "manifest_version": 2,
   "name": "indicate-if-link-is-bookmarked",
   "permissions": [
     "bookmarks"
   ],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
