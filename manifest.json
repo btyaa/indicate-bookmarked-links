@@ -16,9 +16,9 @@
       "128": "icon.png"
   },
   "manifest_version": 2,
-  "name": "indicate-if-link-is-bookmarked",
+  "name": "indicate-bookmarked-links",
   "permissions": [
     "bookmarks"
   ],
-  "version": "1.0.2"
+  "version": "1.0.3"
 }

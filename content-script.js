@@ -3,7 +3,7 @@ function reset(e) {
 
 	e.target.classList.remove('isBookmarked');
 	//e.target.classList.remove('isNotBookmarked');
-	
+
 	e.target.title = e.target.oldtitle;
 	e.target.oldtitle = '';
 }

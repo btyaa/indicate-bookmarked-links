@@ -1,6 +1,7 @@
 .isBookmarked {
-	background-color: rgba(255,0,0,0.3);
-	padding: 0.25em;
+	/*background-color: rgba(255,105,180,1.0) !important;*/
+    border:3px rgba(255,105,180,1.0) groove !important;
+	/*padding: 0.25em;*/
 }
 /*
 .isNotBookmarked{
