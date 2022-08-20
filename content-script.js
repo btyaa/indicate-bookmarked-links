@@ -1,3 +1,4 @@
+/* global browser */
 
 function reset(e) {
 

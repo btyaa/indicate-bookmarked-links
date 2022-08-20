@@ -1,3 +1,5 @@
+/* global browser */
+
 let bookmark_urls = new Set();
 
 function recGetBookmarkUrls(bookmarkItem){
