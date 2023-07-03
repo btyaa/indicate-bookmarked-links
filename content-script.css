@@ -3,7 +3,7 @@
 	--original: rgba(255,105,180,1.0);
 
 	/*background-color: rgba(255,105,180,1.0) !important;*/
-    border:3px var(--original) groove !important;
+    outline: 3px var(--original) groove !important;
 	/*padding: 0.25em;*/
 }
 /*
