@@ -1,10 +1,15 @@
 .isBookmarked {
 	/* colors */
 	--original: rgba(255,105,180,1.0);
+	--light: rgba(200,161,180,0.35 );
+	--dark: rgba(50,40,45,0.35);
 
 	/*background-color: rgba(255,105,180,1.0) !important;*/
     outline: 3px var(--original) groove !important;
 	border-radius: 0.5em 0em !important;
+	box-shadow:
+		0.425em 0.425em var(--dark), /* bottomright shadow */
+		inset 0.425em 0.425em var(--light); /* topleft highlight */
 	/*padding: 0.25em;*/
 }
 /*
